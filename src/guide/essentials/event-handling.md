@@ -44,6 +44,8 @@ data() {
 ```vue-html
 <button @click="count++">Add 1</button>
 <p>Count is: {{ count }}</p>
+<button @click="count +=2">Add 2</button>
+<p>Count is: {{ count }}</p>
 ```
 
 <div class="composition-api">
